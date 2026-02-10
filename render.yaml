@@ -12,6 +12,8 @@ services:
         value: production
       - key: PORT
         value: 10000
+      - key: CORS_ORIGIN
+        sync: false  # Set to your Vercel domains: https://pixora-dun.vercel.app,https://pixora-git-main-23bcs012-iiitdmjacis-projects.vercel.app
       - key: MONGODB_URI
         sync: false
       - key: JWT_SECRET
